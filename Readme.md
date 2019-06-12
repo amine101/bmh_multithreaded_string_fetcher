@@ -21,6 +21,12 @@ The naïve algorithm is then run, with the exception that the string is matched 
 - Worst case complexity is O(|T| |P|), but in the average case the runtime is O(|T|).
 - The more alphabets we have and the larger the pattern is, the better performance we get.
 
+## Memory space management
+![alt tag](https://drive.google.com/file/d/1Jqb0A9Ur4uIgAXRhG9ZFppNzTRIXg-aT/view?usp=sharing "Data characters segmentation")
+
+
+![alt tag](https://drive.google.com/file/d/1qq4giQ5-oOt-HOqd3jFAooDAZm7qNDhr/view?usp=sharing "Boundary limit")
+
 ## Usage
 
 ```bash

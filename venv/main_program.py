@@ -9,11 +9,10 @@ def calculate_NCT(Max_Mem_Size,NT):
     """
             This function calculates the worst case number of characters can be processed by each one of the threads
             (In the worst case, each UTF-8 Character is encoded in 4 bytes)
-            (  to tackle eventual RAM MEMORY limitation when reading a file will consume memory larger than available RAM )
-            - Max_Mem_Size is in MB
+            (  to tackle eventual RAM MEMORY limitation when reading a file will consume memory larger than RAM )
+            -Max_Mem_Size is on MB
      """
-    return (Max_Mem_Size * 1000*1000)//(NT*4)                                   #TODO: take in consideration the M-1 characters read from
-                                                                                # the begining of the next block on the boundary-case.
+    return (Max_Mem_Size * 1000*1000)//(NT*4)
 
 def calculate_s_position_next_substring(index,Nb_processed_blocs,last_s_position):
     """
