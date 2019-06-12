@@ -22,10 +22,10 @@ The naïve algorithm is then run, with the exception that the string is matched 
 - The more alphabets we have and the larger the pattern is, the better performance we get.
 
 ## Memory space management
-![alt tag](https://drive.google.com/file/d/1Jqb0A9Ur4uIgAXRhG9ZFppNzTRIXg-aT/view?usp=sharing "Data characters segmentation")
+![alt tag](https://drive.google.com/uc?export=view&id=1Jqb0A9Ur4uIgAXRhG9ZFppNzTRIXg-aT "Data characters segmentation")
 
 
-![alt tag](https://drive.google.com/file/d/1qq4giQ5-oOt-HOqd3jFAooDAZm7qNDhr/view?usp=sharing "Boundary limit")
+![alt tag](https://drive.google.com/uc?export=view&id=1qq4giQ5-oOt-HOqd3jFAooDAZm7qNDhr "Boundary limit")
 
 ## Usage
 
@@ -34,7 +34,7 @@ python main_program.py path_to_the_text_file string_to_be_found
 ```
 
 ## Assumptions 
-- The Text file is encoded in UTF-8 format and doesnt necessarily have ASCII characters, thus characters can have 1,2,3 or 4 bytes representation.  
+- The Text file is encoded in UTF-8 format and doesnt necessarily have only ASCII characters, thus characters can have 1,2,3 or 4 bytes representation.  
 - The Text file is of a large size (150-250 GB) and can be single lined. 
 - No inter-thread blocking occurs when a thread reads from a specific subset of the file even when we have concurrency mode ( No I/O blocking ).
  
